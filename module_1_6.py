@@ -11,6 +11,5 @@ print('Modified dictionary:',my_dict)
 my_set = {1,1,3,3,4,4,'one','two','one'}
 print('Set:',my_set)
 my_set.remove(4)
-plus_my_set=['zero','study']
-my_set.update(plus_my_set)
+my_set.update({'zero','study'})
 print('Modified set:',my_set)
